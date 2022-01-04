@@ -1,0 +1,17 @@
+TOKEN: 6eb718f846c6d303ed8054cdf7ccdb18c821de18
+TIMEOUT: 10
+TCP_SERVICE_ADDRESS: tonto.cloudwalk.io
+TCP_SERVICE_PORT: 3000
+HTTP_SERVICE_ADDRESS: https://tonto-http.cloudwalk.io
+CHECK_INTERVAL: 300
+HEALTHY_THRESHOLD: 5
+UNHEALTHY_THRESHOLD: 5
+LOG_LEVEL: debug
+SMTP:
+  USERNAME: 2449d27d7429b1
+  PASSWORD: 238c10935d512e
+  HOST: smtp.mailtrap.io
+  PORT: 465
+  FROM: monitoring@monit.com
+  TO:
+    - user1@noc.com
